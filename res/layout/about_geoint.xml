@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        android:text="About GEOINT"
+	    style="@style/activity_title_dark"
+	    android:layout_centerHorizontal="true"/>
+    <ScrollView
+	    	android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1">
+		    <LinearLayout
+		   	    android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+   				android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_chunk_title_dark"
+        android:text="The GEOINT 2012 Symposium" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        style="@style/text_chunk_content_dark"
+        android:text="The GEOINT Symposium is the nation’s largest intelligence event of the year.
+
+The annual GEOINT Symposium, hosted by the United States Geospatial Intelligence Foundation, is the nation’s preeminent intelligence event of the year.
+
+The GEOINT 2012 Symposium promises another agenda packed with important keynote speakers, insightful panel discussions and interesting breakout sessions.
+
+Building on the dialogue from past Symposia, GEOINT 2012 will break new ground and bring the defense, intelligence and homeland security communities together, all in one place."/>
+        
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_chunk_title_dark"
+        android:text="Who is USGIF" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        style="@style/text_chunk_content_dark"
+        android:text="The United States Geospatial Intelligence Foundation (USGIF) is the only organization dedicated to promoting the geospatial intelligence tradecraft and building a stronger GEOINT Community across industry, academia, government, professional organizations and individual stakeholders.  
+
+With more than 180 Sustaining Member organizations and a growing number of individual members, USGIF is proud of its steady growth. As a not-for-profit educational foundation, USGIF strives to bring together the community at-large and support life-long learning that will ensure a robust cadre of professionals and a healthy tradecraft now and in the future."/>
+    
+     <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_chunk_title_dark"
+        android:text="What is the GEOINT Symposium" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        style="@style/text_chunk_content_dark"
+        android:text="The GEOINT Symposium is the preeminent event of the year for the defense, intelligence and homeland security communities.
+
+Each year since 2003, GEOINT Symposia have brought together an exciting agenda of keynote speakers, panel discussions, breakout sessions and provided attendees a unique opportunity to learn from leading experts, share best practices, and uncover the latest developments from government, military and private-sector leaders.
+
+This mix of community leaders with a ever-growing exhibit hall featuring the industry’s top solutions and capabilities brings attendees and exhibitors back year after year.
+
+Of course, the GEOINT Symposium wouldn’t be the GEOINT Symposium without the rich networking opportunities. An opening welcome party, charity golf tournament, GEOWalk corporate hospitality night, closing celebration and exhibit hall receptions—as well as some impromptu events—provide tremendous networking opportunities with immeasurable returns on investment."/>
+    </LinearLayout>
+    </ScrollView>
+        <include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

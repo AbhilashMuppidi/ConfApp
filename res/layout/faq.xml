@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        android:text="FAQ"
+	    style="@style/activity_title_dark"
+	    android:layout_centerHorizontal="true"/>
+        <ScrollView
+	    	android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1">
+		    <LinearLayout
+		   	    android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+   				android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+		android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Is GEOINT 2012 Tax Deductible?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="If the purpose of attending GEOINT 2012 is to help you maintain or improve skills relating to employment or business, a portion of your conference expenses may be tax deductible according to IRS Internal Revenue Code (IRC) Reg. 1.162-5. The eligible deduction for this amount is generally limited. Please consult your tax adviser. You cannot deduct the cost of meals from your registration fee."/>
+    </LinearLayout>
+    
+    
+    
+    
+        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is the official language of the Symposium?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="English is the official language of the GEOINT Symposium. USGIF is unable to provide translation services for conference attendees."/>
+    </LinearLayout>
+    
+        
+        
+        
+            <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Is there an age restriction for GEOINT 2012?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Yes, due to liability restrictions no one under the age of 18, including infants and toddlers, is permitted to attend the GEOINT 2012 Symposium event or enter the exhibit hall at any time."/>
+    </LinearLayout>
+    
+            
+            
+                <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Is Internet access available at the Symposium?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="GEOLounges on the exhibit hall floor will offer Internet-connected computers or wireless connectivity for attendees."/>
+    </LinearLayout>
+    
+                
+                
+                    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is the solicitation policy? "/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="No solicitation of any kind is allowed at the GEOINT 2012 Symposium. By registering to attend, you acknowledge this policy and agree that you will not advertise, represent or distribute literature for products or services to our exhibitors, attendees or staff.
+
+Any attendee that violates this policy will forfeit his or her registration credentials."/>
+    </LinearLayout>
+    
+                    
+                    
+                        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is included in a One-Day Expo Only Pass?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Only those activities taking place in the Exhibit Hall on the day for which your badge was purchased.
+
+There is a limit of one, One-Day Expo Only Pass per attendee. "/>
+    </LinearLayout>
+    
+                        
+                            <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is the dress code for GEOINT 2012?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Business attire is recommended for all conference sessions, the exhibit hall and receptions.
+
+Military officers and enlisted personnel are recommended to wear their duty uniform or business suit.
+
+Casual attire is recommended for the Welcome Reception and and Closing Celebration."/>
+    </LinearLayout>
+    
+                            
+                                <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Is the GEOINT Symposium classified?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="There are no classified sessions during the Symposium. All exhibits, keynotes, panels, and break-out sessions are unclassified and open to all attendees."/>
+    </LinearLayout>
+    
+                                
+                                
+                                    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What are the registration hours for GEOINT 2012?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Sunday 7 Oct., 3 p.m. – 6 p.m.
+Monday 8 Oct., 7:30 a.m. – 7 p.m.
+Tuesday9 Oct. 9, 6:30 a.m. – 6 p.m.
+Wednesday 10 Oct., 7 a.m. – 6 p.m.
+Thursday 11 Oct., 7:30 a.m. – 6 p.m."/>
+    </LinearLayout>
+    
+                                    
+                                    
+                                        <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is 'GEOINT Foreword' and the pre-symposium session?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="The pre-symposium GEOINT Foreword is a day of science and technology related presentations and discussions. An additional registration fee is required for anyone wishing to attend.
+
+GEOINT Foreword is geared to an academic-focused audience, but many of our general attendees and exhibit personnel have found these pre-symposium speakers, presentations and panel discussion of great interest and benefit.
+
+Details about these sessions are available in the agenda."/>
+    </LinearLayout>
+    
+                                        
+                                        
+                                            <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is included in a Full Symposium Registration package?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="•	USGIF Welcome Reception 
+•	General Session
+•	Breakout Sessions
+•	Exhibit Hall 
+•	Breakfast and Lunch
+•	Receptions in the Exhibit Hall 
+•	GEOINT 2012 Closing Celebration
+
+Please Note: The Monday, Oct. 8, “GEOINT Forward” pre-symposium sessions are not included in the full symposium registration package. Admission to “GEOINT Forward” can be added to any registration for a fee."/>
+    </LinearLayout>
+    
+                                            
+                                                <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Where and when does GEOINT 2012 take place?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="GEOINT 2011 takes place Oct. 8-11 at the Gaylord Palms Hotel and Convention Center, located at 6000 W Osceola Parkway, Kissimmee, FL 34746."/>
+    </LinearLayout>
+    
+                                                
+                                                
+                                                    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+	     <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_title_dark"
+	        android:text="What is the GEOINT Symposium?"/>
+	    <TextView 
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Produced by the United States Geospatial Intelligence Foundation (USGIF), the annual GEOINT Symposium is the nation’s largest intelligence event of the year. This preeminent event offers a wealth of quality information, cutting-edge technologies, and top-notch activities that keep attendees coming back year after year.
+
+In addition to insightful keynote addresses and though-provoking panels with leaders from the Defense, Intelligence and Homeland Security communities, the GEOINT Symposium provides attendees with an unparalleled opportunity to network at various social events and explore new technologies with more than 100,000 square feet of exhibits in the exhibit hall."/>
+    </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+              <include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>                                          
+                                                    
+</LinearLayout>

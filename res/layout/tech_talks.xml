@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        android:text="Tech Talks"
+	    style="@style/activity_title_dark"/>
+    <ScrollView
+    	android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1">
+	    <LinearLayout
+	   	    android:layout_width="fill_parent"
+   			android:layout_height="wrap_content"
+  			android:orientation="vertical" >
+  			<LinearLayout
+  			    android:layout_width="fill_parent"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="vertical">
+  			    <TextView 
+  			        android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+  			        android:text="About"
+  			        style="@style/grayish_title"/>
+  			    <LinearLayout
+  			        android:layout_width="fill_parent"
+	    			android:layout_height="wrap_content"
+	    			android:orientation="vertical">
+  			        <LinearLayout
+  			            android:layout_width="fill_parent"
+  			            android:layout_height="wrap_content" >
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                style="@style/grayish"
+  			                android:text="Locaiton" />
+  			            <TextView
+  			                style="@style/content"
+  			                android:layout_width="wrap_content"
+	   						android:layout_height="wrap_content"
+  			                android:text="Innovation Pavilion, Exhibit Hall Booth #2003 " />
+  			        </LinearLayout>
+  			        <TextView
+  			            style="@style/content"
+  			            android:layout_width="fill_parent"
+ 			            android:layout_weight="1"
+	   					android:layout_height="0dp"
+	   					android:paddingTop="10dp"
+	   					android:paddingBottom = "10dp"
+  			            android:text="Have you battled through developing and implementing interoperable services and solutions? Do you want to hear lessons learned, best practices, or just tips and tricks for standing up capabilities and functioning in an interoperable environment? Learn from other’s experience and knowledge by attending the Interoperability Tech Talks." />
+  			    </LinearLayout>
+  			</LinearLayout>
+<!--  This is where another container starts -->
+  			<LinearLayout
+				android:layout_width="fill_parent"
+  			    android:layout_height="wrap_content"
+  			    android:orientation="vertical">
+  			    <TextView 
+  			        android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        style="@style/grayish_title"
+  			        android:text="Tuesday, October 9 (2pm - 4pm)"/>
+  			   	<LinearLayout
+					android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        android:orientation="vertical">
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			                android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="2:30pm"
+  			                style="@style/grayish"/>"
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Welcome" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="2:35pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+							android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Analyst Decision Support Tool – Active Natural Hazard Monitor" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="2:50pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+							android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="GEOINT Advances in OGC Web Service (OWS) Testbeds" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="3:05pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Resilient Active Data Centers" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="3:20pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="CLAVIN – Using Open Source and Open Standards for GEOINT" />
+  			        </LinearLayout>
+					<LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="3:35pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Open Source Software Enables Innovation in Geospatial Enterprise Architectures and Deployments" />
+  			        </LinearLayout>
+  			    </LinearLayout>
+  			</LinearLayout>
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+			<LinearLayout
+				android:layout_width="fill_parent"
+  			    android:layout_height="wrap_content"
+  			    android:orientation="vertical">
+  			    <TextView 
+  			        android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        style="@style/grayish_title"
+  			        android:text="Wednesday, October 10 (11am - 12:30pm)"/>
+  			   	<LinearLayout
+					android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        android:orientation="vertical">
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:00am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Welcome" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			                android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:15am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Model-based Analytics with Joint Enterprise Modeling and Analytics (JEMA)" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:30 am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Toward Interdisciplinary Innovation in Human Geography" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:45 am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Using the Google Cloud for Innovative Geospatial Applications" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="12:00pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="LiDAR Geospatial Repository and Data Management System (GRiD) 3D Database" />
+  			        </LinearLayout>
+  			    </LinearLayout>
+  			</LinearLayout>
+  			
+			
+			
+			
+			
+			
+			  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			<LinearLayout
+				android:layout_width="fill_parent"
+  			    android:layout_height="wrap_content"
+  			    android:orientation="vertical">
+  			    <TextView 
+  			        android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        style="@style/grayish_title"
+  			        android:text="Wednesday, October 10 (4pm - 6pm)"/>
+  			   	<LinearLayout
+					android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        android:orientation="vertical">
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="4:00pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Welcome" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="4:15pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Transforming GEOINT through Virtualization, Collaboration, and Secure Mobility" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="4:30pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="OGC GeoServices REST API Candidate Standard" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="4:45pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Secure Identity Propagation: Lessons Learned in Integration and Current Standards Work" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="5:00pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Perspectives on Standards for Data Quality Measures in GEOINT" />
+  			        </LinearLayout>
+					<LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="5:15pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="On-Demand GEOINT as GeoPDF Mapbooks" />
+  			        </LinearLayout>
+					<LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			               	android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="5:30pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="LiDAR Geospatial Repository and Data Management System (GRiD) 3D Database" />
+  			        </LinearLayout>
+  			        
+  			    </LinearLayout>
+  			</LinearLayout>
+  			
+  			
+  			
+  			
+  			
+  			
+  			  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			
+  			<LinearLayout
+				android:layout_width="fill_parent"
+  			    android:layout_height="wrap_content"
+  			    android:orientation="vertical">
+  			    <TextView 
+  			        android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        style="@style/grayish_title"
+  			        android:text="Thursday, October 11 (11:00am - 12:30pm)"/>
+  			   	<LinearLayout
+					android:layout_width="fill_parent"
+  			        android:layout_height="wrap_content"
+  			        android:orientation="vertical">
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+							android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:00am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Welcome" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+							android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:05am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="The FOUR-Color Framework(4CF)" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			                android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:15am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Op3D: Generating High Fidelity 3D Environments from Imagery and LIDAR Data" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+  			                android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="11:30am"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Streaming Big Image data with JPIP and HTML5" />
+  			        </LinearLayout>
+  			        <LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+							android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="12:00pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="Managing Big (LiDAR) Data" />
+  			        </LinearLayout>
+					<LinearLayout
+						android:layout_width="fill_parent"
+  			        	android:layout_height="wrap_content">
+  			            <TextView
+							android:layout_width="wrap_content"
+	    					android:layout_height="wrap_content"
+  			                android:text="12:15pm"
+  			                style="@style/grayish"/>
+  			            <TextView
+  			                android:layout_width="0dp"
+  			                android:layout_weight="1"
+	   						android:layout_height="wrap_content"
+  			       	 		style="@style/content"
+  			                android:text="The Geospatial Data Challenge – Too Much Data/Too Little Information" />
+  			        </LinearLayout>
+  			    </LinearLayout>
+  			</LinearLayout>
+  			
+  			
+    	</LinearLayout>
+    </ScrollView>
+    <include layout="@layout/bar_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TextView
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+           android:text="GEOINT News Feed"
+	       style="@style/activity_title_dark"
+	       android:layout_centerHorizontal="true"/>
+        <ImageButton 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/refresh"
+            android:background="@null"
+            android:id="@+id/list_news_button_refresh"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
+	    <ListView
+		    android:layout_height="fill_parent"
+	        android:layout_width="fill_parent"
+	        android:id="@android:id/list"/>
+	    <TextView
+	        android:layout_height="wrap_content"
+	        android:layout_width="fill_parent"
+	        android:text="Please connect to the internet and press the refresh button..."
+	        android:id="@android:id/empty"/>
+   </RelativeLayout>
+   	<include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

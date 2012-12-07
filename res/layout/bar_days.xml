@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_height="wrap_content"
+	android:layout_width="fill_parent">
+  	<Button 
+		style="@style/tab_button_dark"
+      	android:id="@+id/monday"
+      	android:text="Monday"/>
+	<Button 
+    	style="@style/tab_button_dark"
+        android:id="@+id/tuesday"
+        android:text="Tuesday"/>
+	<Button 
+    	style="@style/tab_button_dark"
+        android:id="@+id/wednesday"
+        android:text="Wednesday"/>
+	<Button 
+    	style="@style/tab_button_dark"
+        android:id="@+id/thursday"
+        android:text="Thursday"/>
+</LinearLayout>

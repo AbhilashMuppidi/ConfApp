@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        android:text="Symposium Location"
+	    style="@style/activity_title_dark"
+	    android:layout_centerHorizontal="true"
+	    android:paddingBottom="10dp"/>
+    <LinearLayout 
+        android:layout_height="0dp"
+        android:layout_width="fill_parent"
+        android:layout_weight="1">
+	    <com.google.android.maps.MapView
+	        android:id="@+id/mapView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:clickable="true"
+	        android:apiKey="0D18gCTEZafepgOf8FmoAdGikO7pRLpkGFRMtGg"/>
+    </LinearLayout>
+    <include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+
+
+

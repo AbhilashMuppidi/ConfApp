@@ -1,0 +1,28 @@
+<resources>
+
+    <string name="app_name">ConfApp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">GEOINT App</string>
+    <string name="schedule_time_seperator">-</string>
+    <string name="emptyList">No Results Found</string>
+    
+    <!--<color name="active_color">#AA00FF00</color>
+    <color name="inactive_color">#FFAAAAAA</color>-->
+	<color name="itemOff">#FFFF0000</color>
+	<color name="itemOn">#AA00FF00</color>
+	<color name="expandableItemColor">#FF000000</color>
+	<color name="disabled_color">#FFFFFFFF</color>
+	<color name="normal_color">#FF000000</color>
+	<color name="button_background_pressed_color">#FF3366FF</color>
+	<color name="button_background_normal_color">#FF000000</color>	
+	<color name="normal_toolbar_background_color">#CC000000</color>
+	<color name="background">#FF000000</color>
+	<color name="background_tools">#AA000000</color>
+    
+	<color name="past_schedule_item">#88FF0000</color>
+	<color name="current_schedule_item">#8800FF00</color>
+	<color name="future_schedule_item">#880000FF</color>
+	
+	
+</resources>

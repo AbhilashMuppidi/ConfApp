@@ -1,0 +1,10 @@
+{ "speaker":[ 
+
+{ "name": "GEN Keith B. Alexander, U.S. Army","title": "Commander, U.S. Cyber Command (USCYBERCOM), and Director, National Security Agency/Chief, Central Security Service (NSA/CSS)", "bio": "alexander.txt", "image": "alexander.png" }, 
+{ "name": "The Honorable James R. Clapper Jr.","title": "Director of National Intelligence (DNI)", "bio": "clapper.txt", "image": "clapper.png" }, 
+{ "name": "LTG Michael T. Flynn, U.S. Army","title": "Director, Defense Intelligence Agency", "bio": "flynn.txt", "image": "flynn.png" }, 
+{ "name": "Ms. Letitia A. Long","title": "Director, National Geospatial-Intelligence Agency (NGA)", "bio": "long.txt", "image": "long.png" }, 
+{ "name": "Air Chief Marshal Sir Stuart Peach","title": "Commander, Joint Forces Command, U.K. MoD", "bio": "peach.txt", "image": "peach.png" }, 
+{ "name": "Congressman C.A. Dutch Ruppersberger","title": "United States House of Representatives, Maryland’s 2nd District", "bio": "ruppersberger.txt", "image": "ruppersberger.png" }, 
+{ "name": "Michael G. Vickers","title": "Under Secretary of Defense for Intelligence", "bio": "vickers.txt", "image": "vickers.png" }
+] }

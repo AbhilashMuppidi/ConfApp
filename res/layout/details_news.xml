@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+	    <ImageButton 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/favorites"
+	        android:src="@drawable/favorites"
+	        android:contentDescription="Add to favorites"/>
+	   	<ImageButton 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/notes"
+	        android:src="@drawable/notes"
+	        android:contentDescription="View notes"/>
+	    <ImageButton 
+	        android:layout_width="0dp"
+	        android:layout_weight="1"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/bio"
+			android:src="@drawable/bio"
+	        android:contentDescription="View biography"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+	    <TextView
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:text="Title:"/>
+    	<TextView
+        	android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:id="@+id/schedule_title"/>
+	</LinearLayout>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+   		android:layout_height="wrap_content">
+	    <TextView
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:id="@+id/schedule_time_start"/>
+	    <TextView
+	        android:layout_width="wrap_content"
+	   		android:layout_height="wrap_content"
+	   		android:text="-"/>
+    	<TextView
+        	android:layout_width="wrap_content"
+   			android:layout_height="wrap_content"
+   			android:id="@+id/schedule_time_end"/>
+	</LinearLayout>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Location:"/>
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/location"/>
+	<TextView
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Description:"/>
+	<TextView 
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/description"/>
+	<ImageView 
+	    android:layout_width="fill_parent"
+	    android:layout_height="0dp"
+	    android:layout_weight="1"
+	    android:id="@+id/map"/>
+	<include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:text="Maps"
+      style="@style/activity_title_dark"
+      android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+		<Button 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/map_button_ballroom"
+            android:gravity="center"
+            android:text="Ballroom"
+            style="@style/tab_button_dark"/>
+		<ImageButton 
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:src="@drawable/list"
+               android:background="@null"
+               android:id="@+id/listExhibition"
+               android:padding="20dp"/>
+		<Button 
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/map_button_exhibitionhall"
+            android:gravity="center"
+            android:text="Exhibition Hall"
+            style="@style/tab_button_dark"/>
+    </LinearLayout >
+    <bah.conference.appliation.database.quick.TouchImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:id="@+id/img" />
+    <include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

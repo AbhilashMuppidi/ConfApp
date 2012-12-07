@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <TextView 
+        android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+        android:text="Exhibit Hall Hours"
+	    style="@style/activity_title_dark"
+	    android:layout_centerHorizontal="true"/>
+        <ScrollView
+	    	android:layout_width="fill_parent"
+		    android:layout_height="0dp"
+		    android:layout_weight="1">
+		    <LinearLayout
+		   	    android:layout_width="match_parent"
+    			android:layout_height="match_parent"
+   				android:orientation="vertical" >
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        style="@style/text_chunk_title_dark"
+        android:text="About" />
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        style="@style/text_chunk_content_dark"
+        android:text="Enjoy one-stop shopping, uncover new technologies, and do business with the leading suppliers of geospatial intelligence technologies—all in one place, at one time.
+
+GEOINT 2012 will provide an expansive exhibit hall of more than 100,000-square feet of technologies containing more than 200 organizations showcasing the capabilities you need to see.
+
+If you are an exhibitor you don’t want to miss out on the opportunity to showcase your latest technologies and solutions to the Intelligence, Defense and Homeland Security Communities’ top leadership and the more than 4,000 total attendees."/>
+
+    
+		<TextView
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	style="@style/text_chunk_title_dark"
+        	android:text="Thursday, October 8" />
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Hours:  11:00am - 6:00pm"/>
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Reception:  4:00pm - 6:00pm"/>
+    
+    
+    
+    
+    
+    
+    
+		<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Thursday, October 9" />
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Hours:  11:00am - 6:00pm"/>
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Reception:  4:00pm - 6:00pm"/>
+    
+	    <TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        style="@style/text_chunk_title_dark"
+	        android:text="Thursday, October 10" />
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Hours:  11:00am - 3:00pm"/>
+	     <TextView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_marginBottom="20dp"
+	        style="@style/text_chunk_content_dark"
+	        android:text="Exhibit Hall Reception:  3:00pm - 5:00pm"/>
+    </LinearLayout>
+    </ScrollView>
+        <include layout="@layout/bar_bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

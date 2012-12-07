@@ -1,0 +1,101 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+	<!-- =============================================================== -->
+	<!-- Dark Styles -->
+	<!-- =============================================================== -->
+	<style name="content">
+	    <item name="android:textSize">10sp</item>
+	</style>
+	<style name="grayish_title">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:paddingBottom">10dp</item>
+	</style>
+	<style name="grayish">
+	    <item name="android:paddingRight">10dp</item>
+	    <item name="android:textSize">10sp</item>
+	    <item name="android:textColor">@android:color/white</item>
+	</style>
+	
+	<style name="watermark">
+	    <item name="android:text">Booz | Allen | Hamilton</item>
+	    <item name="android:textColor">@color/content_font_secondary</item>
+	</style>
+	
+	
+	
+	<style name="face_container">
+	    <item name="android:background">@drawable/awesome</item>
+	</style>
+	<style name="face_text">
+	    <item name="android:textSize">10sp</item>
+	</style>
+	<style name="activity_title_dark">
+	    <item name="android:textSize">20sp</item>
+	</style>
+	<style name="text_chunk_content_dark">
+	    <item name="android:textSize">10sp</item>
+	    <item name="android:paddingLeft">10dp</item>
+	</style>
+	<style name="text_chunk_title_dark">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:paddingBottom">10dp</item>
+	</style>	
+	<style name="text_content_dark">
+	    <item name="android:textSize">15sp</item>
+	    <item name="android:paddingBottom">20dp</item>
+	</style>
+	<style name="text_title_dark">
+	    <item name="android:textSize">10sp</item>
+	    <item name="android:paddingBottom">10dp</item>
+	</style>	
+	<style name="dialog_header_dark">
+		<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">left</item>
+        <item name="android:text">Disclaimer</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/content_font_primary</item>
+	</style>
+		<style name="dialog_header_dark_small">
+		<item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:textColor">@color/content_font_primary</item>
+	</style>
+	<style name="tab_button_dark">
+	    <item name="android:layout_width">0dp</item>
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_weight">1</item>
+		<item name="android:layout_marginRight">1dp</item>
+        <item name="android:layout_marginLeft">1dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+		<item name="android:paddingBottom">10dp</item>
+		<item name="android:paddingTop">10dp</item>
+		<item name="android:textColor">@color/tab_foreground_theme</item>
+	    <item name="android:background">@color/tab_background_theme</item>
+	</style>
+	<style name="button_dark">
+	    <item name="android:padding">10dp</item>
+		<item name="android:textColor">@color/button_foreground_theme</item>
+		<item name="android:background">@color/button_background_theme</item>
+	</style>
+	<style name="text_secondary_content_dark">
+	  	<item name="android:textColor">@color/content_font_secondary</item>
+		<item name="android:textSize">11sp</item>
+	</style>
+	<style name="text_primary_content_dark">
+	  	<item name="android:textColor">@color/content_font_primary</item>
+		<item name="android:textSize">11sp</item>
+	</style>	
+		
+	<!-- =============================================================== -->
+	<!-- Blue Styles -->
+	<!-- =============================================================== -->
+		
+</resources>
